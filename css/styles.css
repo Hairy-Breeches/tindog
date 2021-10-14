@@ -1,0 +1,176 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+
+                    /* Title Section */
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+  padding: 2% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  position: absolute;
+  transform: rotate(25deg);
+  right: 20%;
+  width: 55%;
+}
+
+                    /* Features Section */
+
+.fav-icon {
+  color: #ef8172;
+  margin-bottom: 15px;
+  margin-top: 60px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.fav-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-text {
+  margin: auto;
+  width: 80%;
+}
+
+#features {
+  position: relative;
+}
+
+                    /* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  margin: 20px;
+  width: 100px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.creds {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+                    /* Pricing Section */
+.price-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+
+                    /* FOOTER SECTION */
+#footer {
+  padding: 5% 0 5%;
+}
+
+.footer-icons {
+  margin-right: 1rem;
+}
+
+.copyright-text {
+  margin-top: 1rem;
+}
+
+                    /* MEDIA QUERY */
+@media (max-width: 985px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .for-mobile {
+    text-align: right;
+  }
+}
